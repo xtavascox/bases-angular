@@ -1,0 +1,8 @@
+<h1>{{title}}</h1>
+
+<h3>La base es : <b>{{base}}</b></h3>
+<div class="counter__container">
+  <button (click)="handleCount(-base)">-{{base}}</button>
+  <span> {{count}}</span>
+  <button (click)="handleCount(base)">+{{base}}</button>
+</div>
